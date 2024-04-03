@@ -1,0 +1,22 @@
+:host {
+    padding: 3rem 2rem;
+    display: block;
+    /* color: white; */
+}
+
+ul:has(ul) {
+    padding: 0%;
+    list-style: none;
+}
+
+ul li:has(ul) {
+    margin-top: 2rem;
+}
+
+ul li  h2 {
+    color: green;
+}
+
+ul li  h4 {
+    color: grey;
+}

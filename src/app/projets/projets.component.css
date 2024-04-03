@@ -1,0 +1,27 @@
+:host {
+    padding: 3rem 2rem;
+    display: block;
+    /* color: white; */
+}
+
+section {
+    margin: 2rem;
+}
+
+section h2 {
+    color :green;
+}
+
+section h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: gray;
+}
+
+section ul {
+    list-style: circle;
+}
+
+h3 span:nth-child(2) {
+    color: black;
+}

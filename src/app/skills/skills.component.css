@@ -1,0 +1,48 @@
+:host {
+    padding: 3rem 2rem;
+    display: block;
+    /* color: white; */
+}
+
+section h2 {
+    color: green;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 2rem;
+}
+
+section .rating {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    margin-top: 0.5rem;
+}
+
+section .rating .bar {
+    height: 5px;
+    flex-grow: 1;
+    margin-right: 1rem;
+    background-color: grey;
+}
+
+section .rating .bar div {
+    height: 100%;
+    background-color: green;
+}
+
+@media (max-width: 900px) {
+    .skill {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+}
+
+@media (min-width: 900px) {
+    .skill {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+}

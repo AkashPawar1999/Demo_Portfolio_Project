@@ -1,0 +1,17 @@
+:host {
+    padding: 3rem 2rem;
+    display: block;
+    /* color: white; */
+}
+
+section {
+    margin-top: 2rem;
+
+}
+
+section h2 {
+    color: green;
+}
+section h4 {
+    color: grey;
+}

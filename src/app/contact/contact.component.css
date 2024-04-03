@@ -1,0 +1,40 @@
+:host {
+    padding: 2rem 2rem;
+    display: block;
+    /* color: white; */
+}
+
+ul {
+    margin-top: 2rem;
+    padding: 0%;
+    list-style: none;
+}
+
+.social-media {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-media li {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    /* color: green; */
+    /* background-color: rgba(255, 255, 255, 0.2); */
+}
+
+.contact-info li {
+    height: 30px;
+    font-size: 1rem;
+    /* width: 400px; */
+}
+
+a {
+    color: black;
+}
